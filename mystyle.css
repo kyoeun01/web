@@ -1,0 +1,48 @@
+
+#bar {
+    background-color: lightsalmon;
+    text-align: center;
+}
+#bar ul {
+    margin: 0 auto;
+    margin-bottom: 8px;
+    overflow: hidden;
+    padding: 5px;
+    height: 50px; 
+}
+#bar ul li {
+    display: inline-block; /* 다음줄로 넘어가지 않게 함 */
+    list-style-type: none; /* 마커 삭제 */
+    padding: 15px 30px; /* 위아래 = 0, 오왼 = 15px */
+    text-align: center;
+}
+#bar ul li a {
+    color: white;
+    text-decoration: none; /* 링크가 보이지 않게 함 */
+}
+#bar ul li a:hover {
+    color: aqua;
+}
+
+#contry {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    border : 0;
+  }
+.hr-1 {
+    height : 3px;
+    background-color : lightsalmon;
+}
+.hr-2 {
+    height: 5px;
+    background-color: pink;
+}
+
+h2{color: black;}
+
